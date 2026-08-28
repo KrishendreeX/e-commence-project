@@ -1,0 +1,25 @@
+@import './base.css';
+
+:root {
+  color: #f4f6f5;
+  background: #0b2a25;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,
+body,
+#app {
+  min-width: 100%;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  background: #0b2a25;
+}
+
+button,
+input {
+  font: inherit;
+}
